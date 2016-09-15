@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 1.5
  * Author: Xiaoying Riley
@@ -26,7 +26,7 @@ h6 {
   color: #778492;
 }
 a {
-  color: #3AAA64;
+  color: #D07B22; /*#3AAA64;*/
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -35,7 +35,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
-  color: #2d844e;
+  color: #84562D;/*#2d844e;*/
 }
 a:focus {
   text-decoration: none;
@@ -60,16 +60,16 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background: #E0790E;/*#54ba4e;*/
+  border: 1px solid #E0790E;/*#54ba4e;*/
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: #49ac43;
-  border: 1px solid #49ac43;
+  background: #AC7943; /*#49ac43;*/
+  border: 1px solid #AC7943; /*#49ac43;*/
   color: #fff;
 }
 a.btn-cta-secondary,
@@ -90,9 +90,15 @@ a.btn-cta-secondary:hover,
   color: #32383e;
 }
 .label-theme {
+  background: #479FC8; /*#3AAA64;*/
+  font-size: 12px;
+}
+/*andrewmo2014*/
+.label-prize {
   background: #3AAA64;
   font-size: 12px;
 }
+
 a.dotted-link {
   border-bottom: 1px dotted #778492;
   color: #778492;
@@ -234,7 +240,7 @@ iframe {
   position: relative;
 }
 .latest .featured-image .text {
-  background: #3AAA64;
+  background: #D07B22; /*#3AAA64;*/
   color: #fff;
 }
 .latest .featured-image .ribbon {
@@ -381,7 +387,7 @@ iframe {
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #CB9A66; /*#66cb8c;*/
 }
 /* Testimonials section */
 .testimonials .item {
@@ -393,11 +399,11 @@ iframe {
 .testimonials .item .quote {
   color: #666;
   font-size: 16px;
-  border-left-color: #9fdeb7;
+  border-left-color: #DEBF9F; /*#9fdeb7;*/
   margin-bottom: 15px;
 }
 .testimonials .item .quote .fa {
-  color: #79d19a;
+  color: #D1A679; /*#79d19a;*/
   margin-right: 15px;
 }
 .testimonials .item .source {
@@ -448,7 +454,7 @@ iframe {
   margin-bottom: 0;
 }
 .languages .item .fa {
-  color: #79d19a;
+  color: #D1A679; /*#79d19a;*/
 }
 /* Blog Section */
 .blog .item {
