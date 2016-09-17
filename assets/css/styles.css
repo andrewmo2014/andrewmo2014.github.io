@@ -504,20 +504,20 @@ iframe {
 }
 /* ======= Footer ======= */
 .footer {
-  background: #32383e;
-  color: #fff;
+  background: #32383e; /*#32383e;*/
+  color: #32383e; /*#fff;*/
   padding: 10px 0;
 }
 .footer .copyright {
   line-height: 1.6;
-  color: #a1aab4;
+  color: #32383e; /*#a1aab4;*/
   font-size: 14px;
 }
 .footer a {
-  color: #fff;
+  color: #32383e; /*#fff;*/
 }
 .footer .fa-heart {
-  color: #fb866a;
+  color: #32383e; /*#fb866a;*/
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
