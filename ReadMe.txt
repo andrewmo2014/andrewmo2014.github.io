@@ -1,4 +1,6 @@
-Responsive HTML5 website template for developers
+#Andrew Moran's Homepage
+
+//Responsive HTML5 website template for developers
 
 Theme name:
 =======================================================================
