@@ -73,8 +73,36 @@
                         <div class="content">
 
                             <div class="item featured text-center">
-                                <h3 class="title"><a href="http://www.foundvr.io/" target="_blank">Found</a><span class="label label-theme">Steam Release</span> </h3>
+                                <h3 class="title"><a href="http://www.foundvr.io/" target="_blank">Found</a><span class="label label-theme">Available on Steam</span> </h3>
                                 <p class="summary">Interactive narrative film in virtual reality utilizing Unity3D, HTC Vive, and SteamVR</p>
+
+                                <!-- Statistics Info -->
+                                <div class="stats" id="stats">
+                                  <div class="container">
+                                    <div class="row">
+                                      <!-- Placeholder for alignment -->
+                                      <div class="col-md-1 count-placeholder"></div>
+                                      <!-- Licenses-->
+                                      <div class="col-md-2">
+                                          <p class="row count-stat"><span class="counter">16</span> K</p>
+                                          <p class="row count-description">Free Licenses Granted</p>
+                                      </div>
+                                      <!-- Downloads -->
+                                      <div class="col-md-2">
+                                          <p class="row count-stat"><span class="counter">4.9</span> K</p>
+                                          <p class="row count-description">First-Time Downloads</p>
+                                      </div>
+                                      <!-- Reviews -->
+                                      <div class="col-md-2">
+                                          <p class="row count-stat"><span class="counter">95</span> %</p>
+                                          <p class="row count-description">Positive User Reviews</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                </br>
+
                                 <div class="featured-image">
                                     <a href="http://www.foundvr.io/" target="_blank">
                                     <iframe src="https://player.vimeo.com/video/182314451" width="100%" height="374" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -82,8 +110,8 @@
                                     </a>
                                     <div class="ribbon">
                                         <div class="text">VR Film</div>
-                                        </div>
                                     </div>
+                                </div>
 
                                 <div class="desc text-left">
                                   <br>
@@ -94,6 +122,7 @@
                                   <p><a class="more-link" href="https://docs.google.com/presentation/d/1_GlarYDANJkXsr8_451W4VRL7z-oz8p2ySgoAxdEPFw/edit#slide=id.g1643a9fba8_3_0" target="_blank"><i class="fa fa-external-link"></i> View on UploadVR's Portfolio Deck</a></p>
 
                                 </div><!--//desc-->
+
                                 <a class="btn btn-cta-primary" href="http://store.steampowered.com/app/528580/" target="_blank"><i class="fa fa-steam"></i> View on Steam</a>
                             </div><!--//item-->
                             <hr class="divider">
@@ -871,14 +900,30 @@
     <!-- github activity plugin -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
-    <!-- custom js -->
+
+    <!-- main js -->
     <script type="text/javascript" src="assets/js/main.js"></script>
 
-    <!-- stop modal video -->
+    <!-- CounterUp -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <!-- custom js -->
     <script type="text/javascript">
+
+     /* stop modal video */
      function stopVideo(id){
           document.getElementById(id).load();
      }
+
+     /* count up numbers */
+     jQuery(document).ready(function($) {
+          $('.counter').counterUp({
+              delay: 10,
+              time: 1000
+          });
+      });
+
      </script>
 
 </body></html>
