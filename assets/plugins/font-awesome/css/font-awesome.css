@@ -2084,3 +2084,16 @@
 .fa-percent:before {
   content: "\f295";
 }
+/*andrewmo2014*/
+.fa.fa-oculus {
+  background-image: url("../../../../assets/images/oculus.png");
+  background-position: center center;
+  height: 14px;
+  width: 14px;
+}
+.fa.fa-viveport {
+  background-image: url("../../../../assets/images/viveport.png");
+  background-position: center center;
+  height: 14px;
+  width: 14px;
+}

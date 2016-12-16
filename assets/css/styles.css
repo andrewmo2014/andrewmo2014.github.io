@@ -628,17 +628,3 @@ iframe {
   font-size: 18px;
   font-weight: normal;;
 }
-
-/*New Favicons*/
-.fa.fa-oculus {
-  background-image: url("../../assets/images/oculus.png");
-  background-position: center center;
-  height: 14px;
-  width: 14px;
-}
-.fa.fa-viveport {
-  background-image: url("../../assets/images/viveport.png");
-  background-position: center center;
-  height: 14px;
-  width: 14px;
-}
