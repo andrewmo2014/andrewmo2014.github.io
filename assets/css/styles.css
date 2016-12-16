@@ -86,6 +86,51 @@ a.btn-cta-secondary:hover,
   border: 1px solid #3893bd;
   color: #fff;
 }
+/*andrewmo2014 - new buttons*/
+a.btn-cta-oculus,
+.btn-cta-oculus {
+  background: #000000;/*#54ba4e;*/
+  border: 1px solid #000000;/*#54ba4e;*/
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+a.btn-cta-oculus:hover,
+.btn-cta-oculus:hover {
+  background: #AC7943; /*#49ac43;*/
+  border: 1px solid #AC7943; /*#49ac43;*/
+  color: #fff;
+}
+a.btn-cta-viveport,
+.btn-cta-viveport {
+  background: #00BFFF;/*#54ba4e;*/
+  border: 1px solid #00BFFF;/*#54ba4e;*/
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+a.btn-cta-viveport:hover,
+.btn-cta-viveport:hover {
+  background: #AC7943; /*#49ac43;*/
+  border: 1px solid #AC7943; /*#49ac43;*/
+  color: #fff;
+}
+a.btn-cta-steam,
+.btn-cta-steam {
+  background: #808080;/*#54ba4e;*/
+  border: 1px solid #808080;/*#54ba4e;*/
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+a.btn-cta-steam:hover,
+.btn-cta-steam:hover {
+  background: #AC7943; /*#49ac43;*/
+  border: 1px solid #AC7943; /*#49ac43;*/
+  color: #fff;
+}
+/*andrewmo2014 - end new buttons*/
+
 .text-highlight {
   color: #32383e;
 }
@@ -582,4 +627,18 @@ iframe {
   text-align: center;
   font-size: 18px;
   font-weight: normal;;
+}
+
+/*New Favicons*/
+.fa.fa-oculus {
+  background-image: url("../../assets/images/oculus.png");
+  background-position: center center;
+  height: 14px;
+  width: 14px;
+}
+.fa.fa-viveport {
+  background-image: url("../../assets/images/viveport.png");
+  background-position: center center;
+  height: 14px;
+  width: 14px;
 }
