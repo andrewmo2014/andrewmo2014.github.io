@@ -2097,3 +2097,9 @@
   height: 14px;
   width: 14px;
 }
+.fa.fa-magic-leap {
+  background-image: url("../../../../assets/images/magic-leap.png");
+  background-position: center center;
+  height: 14px;
+  width: 14px;
+}
